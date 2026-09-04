@@ -1,0 +1,13 @@
+{
+  "name": "wordbook-worker",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-08-10",
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "wordbook-db",
+      "database_id": "REPLACE_WITH_D1_DATABASE_ID"
+    }
+  ],
+  "workers_dev": true
+}

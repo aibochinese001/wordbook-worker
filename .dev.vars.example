@@ -1,0 +1,17 @@
+# ============================================================
+# 本地开发环境变量示例（复制为 .dev.vars 供 `wrangler dev` 使用）
+# ============================================================
+# 说明：本项目**所有密钥都保存在 D1 settings 表中**（后台 /admin 页面配置），
+#       代码不读取任何环境变量（Bindings 仅 D1 `DB`）。
+#       因此 .dev.vars 在本地开发时通常**不需要**任何配置，
+#       下面的变量仅作示例，本地用不到可全部留空。
+#
+# 生产环境密钥配置入口：部署后打开 https://<your-worker>.workers.dev/admin
+#   → 系统设置（SMTP 邮箱 / 易支付网关）
+#   → 修改密码（admin_password）
+#   → 套餐管理（会员 plans）
+# 无需 wrangler secret put。
+
+# （示例，本地一般不需要）
+# SESSION_SECRET=please-change-me
+# BASE_URL=http://localhost:8787
